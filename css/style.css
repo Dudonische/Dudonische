@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html {
+font-size: 16px;
+font-family: 'Manrope', sans-serif;
+}
+header {
+    background-color:rgb(210, 238, 255);
+    text-align: center;
+    padding: 20px 100px;
+}
+main {
+    background-color:rgb(160, 220, 255);
+    padding: 0px 100px;
+    
+}
+img+dl {
+    padding-top: 100px;
+}
+footer {
+    background-color: rgb(210, 238, 255);
+    padding: 10px 100px;
+}
+.about {
+    text-align: center;
+}
+.about_p{
+text-align: justify;
+font-size: 2rem;
+line-height: 2rem;
+margin-top: 3rem;
+}
+.articles{
+    text-align: center;
+}
+.article_list{
+    text-align: left;
+    padding-left: 30px;
+}
+.main-menu{
+    background-color: rgb(13, 207, 255);
+    padding: 10px 100px;
+}
+.spisok
+{
+    text-align:center ;
+}
+.menu-list{
+    list-style: none;
+}
+.menu_item2 {
+    text-align: center;
+    display: inline-table;
+    padding: 5px 8px;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+   p:lang(en) {
+    color: azure;
+   }
+.footer_text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    }
+    .svg{
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    }
+    .svg:hover{
+    transform: scale(1.5);
+    }
+    .class1{
+        font-size: 15px;
+    }
+    .imgclass1{
+        box-shadow: 5px 5px 20px;
+    }
+    .class2{
+        font-size: 15px;
+    }
+    .imgclass2{
+        border: 5px 5px 20px;
+    }
+    .class3{
+        font-size: 15px;
+    }
+    .imgclass3{
+        border-radius: 5px 5px 20px;
+    }
+    .class4{
+        font-size: 10px;
+    }
+    .imgclass4{
+        border: 8px 8px 20px;
+    }
+    .class5{
+        font-size: 15px;
+    }
+    .imgclass5{
+        border-radius: 40px 40px 40px;
+    }
+    .class6{
+        font-size: 15px;
+    }
+    .imgclass6{
+        box-shadow: 20px 20px 20px;
+    }
+    a:link{
+        color:red;
+        text-decoration: none;
+    }
+    a:hover{
+        color: darkred;
+        text-decoration: underline;
+    }
+    a:active{
+        color: green;
+    }
+    a:visited{
+        color: blue;
+    }
+    a:focus{
+        color: darkorange;
+        text-decoration: underline;
+    }
+    .article_list li:nth-child(odd){
+        background-color: blueviolet;
+    }
+    .about-h2::after{
+        content: "New";
+        margin-left: 10px;
+        background-color: yellow;
+        border-radius: 8px;
+        font-size: 17px;
+    }
+    .drevo{
+        border: 5px;
+    }
+    .about-li::after{
+        content: "Важно";
+        margin-left: 120px;
+        background-color: yellow;
+        border-radius: 8px;
+        font-size: 17px;
+    }
+.menu_item:hover{
+        color: blue; text-decoration: none;
+        border-bottom: 4px double red;  
+}
+.menu_item:focus{
+    background: rgb(15, 15, 7);
+  color: rgb(123, 123, 167);
+}
+  .svg{
+    padding: 2px;
+    text-decoration: none;
+  }
+  .art0::first-line{
+    letter-spacing: 3px;
+  }
+figure+dd{
+    padding-top: 20px;
+}
+.text{
+    background-color: aqua;
+    font-style: italic;
+}
+.pricetable{
+    border: 5px solid black;
+    background-color: aqua;
+    border-collapse:collapse ;
+    text-align: center;
+}
+.pricetable td,
+.pricetable th {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 2px 2px;
+}
+.pricetable tr:nth-child(even){
+    background-color: rgb(175, 56, 56);
+}
+.pricetable tr:nth-child(even) td{
+    border-bottom: 2px solid black ;
+}
+.pricetable td:last-child{
+    text-align: right;
+}
+/*Страница 6 - Обратная связь */
+#contact-form input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgb(45, 123, 190);
+}
+.article6form {
+    padding: 0px 20px;
+}
+/*Страница 6 - Обратная связь */
+
+/*Страница 1 - HTML */
+.article1ol {
+    list-style: none; 
+    display: inline-block;
+    background-color: rgb(85, 249, 255);
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+/*Страница 1 - HTML */
+
+/*Задание 11:
+    body => 1
+    .pink => 10
+    #logo => 100
+    #mainnav ul => 101
+    #mainnav .active => 110
+    #mainnav a:hover => 102
+    #mainnav ul li.active => 112
+ */
