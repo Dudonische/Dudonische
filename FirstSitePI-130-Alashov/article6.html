@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт верстальщика</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Личный Сайт верстальщика</h1>
+        <img src="img/bootstrap-fill.svg" alt="Логотип"
+        width="50px">
+    </header>
+    <nav class="main-menu">
+        <ul class="menu_list">
+           <li class ="menu_item2"><a href="index.html">Главная</a></li>
+       </ul>
+    </nav>
+</body>
+<div>
+    <form action="" class="article6form">   
+        <div class="form_item">
+            <br><label for="topic">Тема</label><br>
+        <select name="topic" id="topic">
+            <option value="1">Заказать услугу</option><br>
+            <option value="2">Оставить отзыв/замечание</option><br>
+            <option value="3">Предложить сотрудничество</option><br>
+            <option value="4">Другое</option><br>
+        </select>
+        </div>
+
+        <div class="form_item">
+            <label for="name">Имя</label><br>
+        <input name="name" id="name" type="text">
+        </div>
+
+        <div class="form_item">
+            <label for="E-Mail">E-Mail</label><br>
+        <input name="E-Mail" id="E-Mail" type="text">
+        </div>
+        <p><b>Введите ваш отзыв:</b></p>
+  <p><textarea name="comment"></textarea></p>
+  <p><input type="submit"></p>
+    </form>
+</div>
+</html>
